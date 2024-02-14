@@ -43,6 +43,10 @@
             this.üstBoru = new System.Windows.Forms.PictureBox();
             this.flappy = new System.Windows.Forms.PictureBox();
             this.zemin = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
+=======
+            this.failBox = new System.Windows.Forms.PictureBox();
+>>>>>>> a824736d30459967491b0c8a79945426f7ff41ad
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.morning = new System.Windows.Forms.PictureBox();
             this.noon = new System.Windows.Forms.PictureBox();
@@ -51,6 +55,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.üstBoru)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.flappy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zemin)).BeginInit();
+<<<<<<< HEAD
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.failBox)).BeginInit();
+>>>>>>> a824736d30459967491b0c8a79945426f7ff41ad
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.morning)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.noon)).BeginInit();
@@ -91,7 +99,11 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(171, 40);
             this.textBox1.TabIndex = 11;
+<<<<<<< HEAD
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+=======
+            this.textBox1.Text = "t";
+>>>>>>> a824736d30459967491b0c8a79945426f7ff41ad
             // 
             // btn1
             // 
@@ -196,6 +208,21 @@
             this.zemin.TabIndex = 0;
             this.zemin.TabStop = false;
             // 
+<<<<<<< HEAD
+=======
+            // failBox
+            // 
+            this.failBox.Image = global::HappyFlappy.Properties.Resources.y7;
+            this.failBox.Location = new System.Drawing.Point(441, 219);
+            this.failBox.Name = "failBox";
+            this.failBox.Size = new System.Drawing.Size(378, 243);
+            this.failBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.failBox.TabIndex = 9;
+            this.failBox.TabStop = false;
+            this.failBox.Visible = false;
+            this.failBox.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+>>>>>>> a824736d30459967491b0c8a79945426f7ff41ad
             // pictureBox1
             // 
             this.pictureBox1.Image = global::HappyFlappy.Properties.Resources.ground;
@@ -255,6 +282,10 @@
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.idTxt);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.failBox);
+>>>>>>> a824736d30459967491b0c8a79945426f7ff41ad
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.morning);
             this.Controls.Add(this.noon);
@@ -269,6 +300,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.üstBoru)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.flappy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zemin)).EndInit();
+<<<<<<< HEAD
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.failBox)).EndInit();
+>>>>>>> a824736d30459967491b0c8a79945426f7ff41ad
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.morning)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.noon)).EndInit();
@@ -288,6 +323,10 @@
         private System.Windows.Forms.PictureBox noon;
         private System.Windows.Forms.PictureBox morning;
         private System.Windows.Forms.PictureBox pictureBox1;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.PictureBox failBox;
+>>>>>>> a824736d30459967491b0c8a79945426f7ff41ad
         private System.Windows.Forms.Label idTxt;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btn1;

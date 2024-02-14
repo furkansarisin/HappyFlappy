@@ -1,4 +1,3 @@
-# HappyFlappy
 HappyFlappy, basit bir oyun platformunda geliştirilmiş bir oyundur. Oyuncunun boruların arasından geçerek en yüksek skora ulaşmaya çalıştığı eğlenceli bir deneyim sunar. C# ve Windows Forms kullanılarak geliştirilmiştir.
 
 ## Özellikler
